@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "horsebanners",
+  "version": "${version}",
+
+  "name": "Horse Banners",
+  "description": "Ever wanted to give your horses banners? Probably not but now you can!",
+  "authors": [
+    "KxmischesDomi"
+  ],
+  "contact": {
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/horsebanners/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.kxmischesdomi.horsebanners.HorseBanners"
+    ],
+    "client": []
+  },
+  "mixins": [
+    "horsebanners.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
